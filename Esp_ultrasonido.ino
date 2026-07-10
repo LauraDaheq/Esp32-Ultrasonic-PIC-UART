@@ -1,3 +1,18 @@
+/***********************************************************************
+ Project: ESP32 Ultrasonic Sensor with UART Communication
+
+ Description:
+ Measures distance using an HC-SR04 ultrasonic sensor connected to an
+ ESP32 and communicates detection events to a PIC microcontroller via
+ UART.
+
+ Technologies:
+ - ESP32
+ - Arduino C++
+ - UART
+ - Embedded Systems
+************************************************************************/
+
 #define TRIG_PIN 5
 #define ECHO_PIN 18
 #define RXD2 16  // Conectado a TX de la PIC
